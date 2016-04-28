@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>浮出层</title>
+ </head>
+ <body>
+  <input type="button" name="点击产生浮出层" value="点击产生浮出层" onclick="Generate_floatlayer"/>
+  <div id="floatlayer" class="floatlayer" >
+  <h1>这是一个浮出层</h1>
+  <p>这是一个浮出层</p>
+  <input type="button" name="确定" value="确定"/>
+  <input type="button" name="取消" value="取消"/>
+  </div>
+ </body>
+ <script type="text/javascript">
+ function Generate_floatlayer()
+ {
+
+ }
+ </script>
+</html>

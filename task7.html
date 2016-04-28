@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" type="text/css" href="task37.css"/>
+  <title>浮出层</title>
+ </head>
+ <body>
+  <input type="button" name="点击产生浮出层" value="点击产生浮出层" onclick="Generate_floatlayer()"/>
+  <div id="floatlayer" class="floatlayer" >
+  <p>这是一个浮出层</p>
+  这是一个浮出层<br/>
+  <div class="keyborder">
+  <input type="button" name="确定" value="确定" onClick="Close_floatlayer()"/>
+  <input type="button" name="取消" value="取消" onClick="Close_floatlayer()"/>
+  </div>
+  </div>
+ </body>
+ <script type="text/javascript">
+ function Generate_floatlayer()
+ {
+	 //floatArea=document.getElementById("floatlayer");
+	 document.styleSheets[0].cssRules[1].style.display="";
+
+ }
+ function Close_floatlayer(){
+	 document.styleSheets[0].cssRules[1].style.display="none";
+	 }
+ </script>
+</html>
